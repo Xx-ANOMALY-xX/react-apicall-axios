@@ -18,7 +18,6 @@ const home = () => {
 
       let renderusers = 
       users.map((user) =>{
-        console.log(user)
           return (
           <div key={user.id} style={{height: 'auto', width: '20vw', backgroundColor: 'lightblue', padding: '1rem', borderRadius: '20px', marginBottom: '10px'}}>
             <h3>{user.name}</h3>
